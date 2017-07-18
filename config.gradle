@@ -68,6 +68,7 @@ ext {
             localGroup         : "$localMavenHost/nexus/content/groups/public",
             localMaven         : "$localMavenHost/nexus/content/repositories/releases",
             localMavenSnapshots: "$localMavenHost/nexus/content/repositories/snapshots",
+            localMaven3rd      : "$localMavenHost/nexus/content/repositories/thirdparty",
             sdkMaven           : "file:${android.sdkPath}/extras/m2repository",
             sdkAndroidMaven    : "file:${android.sdkPath}/extras/android/m2repository",
             sdkGoogleMaven     : "file:${android.sdkPath}/extras/google/m2repository",
