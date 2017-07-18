@@ -1,2 +1,2 @@
-include ':app', ':BaseLibrary'
+include ':app'
 include ':base'
