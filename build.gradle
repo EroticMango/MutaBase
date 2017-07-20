@@ -4,7 +4,7 @@ buildscript {
     apply from: "dependencies.gradle"
     ext.kotlin_version = '1.1.3-2'
     repositories {
-        maven { url rootProject.ext.maven.localMaven}
+        maven { url rootProject.ext.maven.localGroup}
         maven { url rootProject.ext.maven.aliyunMaven}
         jcenter()
     }
@@ -25,7 +25,7 @@ allprojects {
         maven { url rootProject.ext.maven.sdkMaven }
         maven { url rootProject.ext.maven.myMaven}
         maven { url rootProject.ext.maven.myMavenSnapshots}
-        maven { url rootProject.ext.maven.localMaven}
+        maven { url rootProject.ext.maven.localGroup}
         maven { url rootProject.ext.maven.aliyunMaven}
         jcenter()
     }
