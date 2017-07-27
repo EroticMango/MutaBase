@@ -21,7 +21,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package com.muta.base.basepopup;
+package com.muta.base.BasePopup.PopupWindow;
+
 import android.view.View;
 
 /**
